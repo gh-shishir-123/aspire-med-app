@@ -1,0 +1,12 @@
+name: Squad APK Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Squad Trigger
+        run: echo "Trigger working ✅"
+
