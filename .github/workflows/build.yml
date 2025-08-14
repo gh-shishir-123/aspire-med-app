@@ -1,5 +1,8 @@
 name: Build APK
 
+git add .github/workflows/build.yml
+git commit -m "🐍 Fix: Add Cython for buildozer"
+git push
 on:
   push:
     branches:
